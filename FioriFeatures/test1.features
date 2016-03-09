@@ -1,0 +1,15 @@
+Feature: "*" Search in Fiori
+
+In order to Login in Fiori we have to enter the url with the login details
+
+Scenario: Launch the Fiori url with the given username
+
+Given I am on the Fiori homepage
+
+When Click on Search Button
+
+Then The search field should open
+
+When Enter a Search Term SAP in the search field and Hit Search Button
+
+Then The search Results should be shown
